@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8f803fbb2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#">
+          <img
+            class="nav-logo"
+            src="https://emailvalidation.io/img/emailvalidation_logo_black.svg"
+            alt="emailvalidation-Logo"
+          />
+        </a>
+        <ul class="nav-item-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="login-sec">
+          <a id="nav-login"><i class="fa-solid fa-user"></i>Login</a>
+          <a class="start-free" href="#">Start For Free</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left-section">
+          <h2>Free Email Address Validator.</h2>
+          <p id="p1">
+            Validate email instantly with our cutting-edge free online email
+            verification tool: simply enter the email address in the box below,
+            and our advanced email validator will provide you with real-time
+            email deliverability results!
+          </p>
+          <p id="p2">
+            Our free email checker ensures proper formatting and verifies the
+            existence of the mailbox, confirming its ability to receive emails:
+            the email validation process is completely discreet and our email
+            verifier does not send any messages while testing email addresses.
+          </p>
+        </div>
+
+        <div class="right-section">
+          <h2>Enter your email to validate</h2>
+          <form action="">
+            <label for="username">Email Address</label>
+            <br />
+            <input id="username" type="email" placeholder="abcd@example.com" />
+          </form>
+          <button id="validate-btn" class="submit-btn" type="submit">
+            Validate
+          </button>
+          <p id="right-sec-p">
+            <span id="symbol">&#x261B</span> After clicking the validate button it will take few seconds to
+            dislay the result.
+          </p>
+          <br />
+          <img id="loading-icon" src="" />
+        </div>
+      </div>
+      <h1>YOUR RESULT</h1>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
