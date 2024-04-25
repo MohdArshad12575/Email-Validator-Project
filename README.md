@@ -4,4 +4,4 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="C:\Email_Validator_Project\demo project image\Screenshot 2024-04-26 001915.png" alt="project-screenshot" width="1920px" height="1080px/">
+<img src="C:\Email_Validator_Project\demo project image\Screenshot 2024-04-26 001915.png" alt="project-screenshot" width="200px" height="200px/">
