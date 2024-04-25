@@ -84,7 +84,6 @@
   padding-right: 80px;
   padding-left: 20px;
   width: 50vw;
-  height: 80vh;
 }
 .left-section h2 {
   color: #146ef5;
@@ -101,7 +100,6 @@
 }
 .right-section {
   width: 50vw;
-  height: 80vh;
   padding-top: 50px;
   padding-right: 80px;
   padding-left: 20px;
@@ -154,5 +152,16 @@ form {
   width: 40px;
 }
 #symbol {
+  font-size: 20px;
+}
+.result-sec {
+  margin-left: 20px;
+  width: 22vw;
+  background-color: pink;
+}
+.result-sec h3 {
+  color: #153667;
+}
+#down-arrow {
   font-size: 20px;
 }

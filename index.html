@@ -51,7 +51,7 @@
 
         <div class="right-section">
           <h2>Enter your email to validate</h2>
-          <form action="">
+          <form action="action.php">
             <label for="username">Email Address</label>
             <br />
             <input id="username" type="email" placeholder="abcd@example.com" />
@@ -61,13 +61,15 @@
           </button>
           <p id="right-sec-p">
             <span id="symbol">&#x261B</span> After clicking the validate button it will take few seconds to
-            dislay the result.
+            display the result.
           </p>
           <br />
           <img id="loading-icon" src="" />
         </div>
       </div>
-      <h1>YOUR RESULT</h1>
+      <div class="result-sec">
+        <h3>Your result display here <span id="down-arrow">&#8595</span></h3>
+      </div>
     </main>
     <script src="app.js"></script>
   </body>
