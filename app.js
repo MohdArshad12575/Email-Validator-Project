@@ -15,13 +15,14 @@ async function getData() {
   let email = inp.value;
   let data = await fetch(url + email);
   let finaldata = await data.json();
+
   img.src = "";
 
   let resultcont = document.querySelector(".results");
   resultcont.innerHTML = "";
+
   for (key of Object.keys(finaldata)) {
     if (finaldata[key] !== "" && finaldata[key] !== " ") {
-      // Check if value is not empty or whitespace
       let paragraph = document.createElement("p");
       paragraph.textContent = `${key} : ${finaldata[key]}`;
       resultcont.appendChild(paragraph);

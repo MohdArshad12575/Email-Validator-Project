@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  position: relative;
+}
 
 .navbar {
   display: flex;
@@ -155,11 +158,74 @@ form {
   font-size: 20px;
 }
 .result-sec {
-  margin-left: 20px;
+  padding-left: 20px;
+  min-height: 60vh;
+  padding-bottom: 50px;
 }
+
 .result-sec h3 {
   color: #153667;
+  margin-bottom: 30px;
 }
 #down-arrow {
   font-size: 20px;
+}
+
+.footer-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #146ef5;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+#heart-symbol {
+  color: red;
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  .nav-item-list {
+    gap: 30px;
+  }
+  .nav-item-list li a {
+    font-size: 15px;
+  }
+  .nav-logo {
+    width: 150px;
+  }
+  .login-sec {
+    gap: 15px;
+  }
+  .login-sec a {
+    font-size: 15px;
+  }
+  .login-sec a i {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    display: block;
+  }
+  .left-section {
+    width: 100vw;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .right-section {
+    width: 100vw;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .result-sec {
+    padding: 50px;
+  }
 }
