@@ -41,6 +41,6 @@ https://api.emailvalidation.io/v1/info?apikey=ema_live_gLg1lVHpXae4id0AgoGJXI1Zk
 
 ## Demo Vedio Link
 
-Insert gif or link to demo
+https://www.linkedin.com/posts/mohd-arshad-726b38286_i-have-created-this-email-validation-checker-activity-7190392057436266496-N75W?utm_source=share&utm_medium=member_desktop
 
 
