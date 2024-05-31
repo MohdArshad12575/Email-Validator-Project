@@ -13,7 +13,7 @@ const handleFn = () => {
 btn.addEventListener("click", async (e) => {
   e.preventDefault();
   if (inp.value == "") {
-    alert("please write something you have not written anything yet");
+    alert("You have not written anything in the input box. Please enter your email.");
   } else {
     img.src = "img/loading.svg";
     getData();
