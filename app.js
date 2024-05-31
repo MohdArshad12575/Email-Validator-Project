@@ -2,10 +2,22 @@ let btn = document.querySelector(".submit-btn");
 let img = document.querySelector("#loading-icon");
 let inp = document.querySelector("input");
 
+// let barBtn = document.querySelector(".bar-icon");
+
+let navHidden = document.querySelector(".nav-hidden");
+
+const handleFn = () => {
+  navHidden.classList.toggle("hidden");
+};
+
 btn.addEventListener("click", async (e) => {
   e.preventDefault();
-  img.src = "img/loading.svg";
-  getData();
+  if (inp.value == "") {
+    alert("please write something you have not written anything yet");
+  } else {
+    img.src = "img/loading.svg";
+    getData();
+  }
 });
 
 let url =

@@ -12,7 +12,8 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav>
+      <div class="navbar">
         <a href="#">
           <img
             class="nav-logo"
@@ -20,6 +21,7 @@
             alt="emailvalidation-Logo"
           />
         </a>
+
         <ul class="nav-item-list">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -29,11 +31,38 @@
           <a id="nav-login"><i class="fa-solid fa-user"></i>Login</a>
           <a class="start-free" href="#">Start For Free</a>
         </div>
+        <div onclick="handleFn()" class="bar-icon">
+          <i class="fa-solid fa-bars "></i>
+        </div>
+      </div>
+      <div class="nav-hidden hidden">
+        <div class="navbar2 ">
+          <div>
+          <a href="#">
+            <img
+              class="nav-logo"
+              src="https://emailvalidation.io/img/emailvalidation_logo_black.svg"
+              alt="emailvalidation-Logo"
+            />
+          </a>
+        </div>
+          <div onclick="handleFn()" class="bar-icon">
+            <i class="fa-solid fa-xmark "></i>
+          </div>
+        </div>
+        <div class=" m-all">
+          <ul class="unordered-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
       </nav>
     </header>
     <main>
       <div class="container">
-        <div class="left-section">
+        <div class="left-section m-all">
           <h2>Free Email Address Validator.</h2>
           <p id="p1">
             Validate email instantly with our cutting-edge free online email
@@ -49,7 +78,7 @@
           </p>
         </div>
 
-        <div class="right-section">
+        <div class="right-section m-all">
           <h2>Enter your email to validate</h2>
           <form action="action.php">
             <label for="username">Email Address</label>
@@ -67,18 +96,14 @@
           <img id="loading-icon" src="" />
         </div>
       </div>
-      <div class="result-sec">
+      <div class="result-sec m-all">
         <h3>Your result display here <span id="down-arrow">&#8595</span></h3>
         <div class="results">
 
         </div>
       </div>
     </main>
-    <div class="footer">
-      <footer class="footer-sec">
-        <p><span id="copyright">	&#169</span> Made with <span id="heart-symbol">&#9829</span> by Mohd Arshad.</p>
-      </footer>
-    </div>
+    
     <script src="app.js"></script>
   </body>
 </html>
