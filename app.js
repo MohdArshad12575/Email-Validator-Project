@@ -14,7 +14,7 @@ btn.addEventListener("click", async (e) => {
   e.preventDefault();
   if (inp.value == "") {
     alert(
-      "You have not written anything in the input box. Please enter your email."
+      "You have not written anything in the input box. Please enter your email !"
     );
   } else {
     img.src = "img/loading.svg";
